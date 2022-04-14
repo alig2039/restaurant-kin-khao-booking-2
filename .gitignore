@@ -1,2 +1,3 @@
 *.squlite3
 _pycache_/
+env.py
