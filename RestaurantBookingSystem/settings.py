@@ -89,9 +89,7 @@ WSGI_APPLICATION = 'RestaurantBookingSystem.wsgi.application'
 # }
 
 
-DATABASES = {
-   'default': dj_database_url.parse("postgres://wbjvxhwqqmcizq:4f367b877df6bc7e09dcb1037a58d6549d5e029b3369ec5aec7b4b95e25e71cd@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/damh1vq94qn70b")
-}
+DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
 
 
 # Password validation
