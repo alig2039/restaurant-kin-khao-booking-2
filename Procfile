@@ -1,1 +1,1 @@
-web: web: python3 app.py
+gunicorn django_RestaurantBookingSystem.wsgi:application
