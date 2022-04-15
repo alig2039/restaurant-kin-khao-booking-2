@@ -1,1 +1,1 @@
-gunicorn django_RestaurantBookingSystem.wsgi:application
+gunicorn RestaurantBookingSystem.wsgi:application
