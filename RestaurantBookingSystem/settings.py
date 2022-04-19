@@ -32,7 +32,8 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = "DEVELOPMENT"
+DEBUG = development
+DEBUG = False
 
 if development:
     ALLOWED_HOSTS = ["localhost"]
@@ -85,6 +86,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'RestaurantBookingSystem.wsgi.application'
+
+print(f"DEBUG: {DEBUG}")
 
 
 # Database
