@@ -20,7 +20,7 @@ from kinkhao.views import (index, menu, reservations,)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="index"),
-    path('menu/', menu ,name="menu"),
-    path('reservations/' , reservations , name="reservations"),
+    path('menu/', menu, name="menu"),
+    path('reservations/', reservations, name="reservations"),
 
 ]
