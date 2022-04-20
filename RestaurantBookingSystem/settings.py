@@ -35,10 +35,10 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-if development:
-    ALLOWED_HOSTS = ["localhost"]
-else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = [
+    'kin-khao-ug-final.herokuapp.com', 
+    'localhost'
+]   
 
 
 # Application definition
