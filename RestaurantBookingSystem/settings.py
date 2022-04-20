@@ -38,7 +38,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     'kin-khao-ug-final.herokuapp.com', 
     'localhost'
-]   
+]
 
 
 # Application definition
