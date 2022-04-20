@@ -38,7 +38,7 @@ DEBUG = False
 
 
 ALLOWED_HOSTS = [
-    'kin-khao-ug-final.herokuapp.com',
+    'HEROKU_HOSTNAME',
     'localhost'
 ]
 
