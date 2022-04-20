@@ -142,7 +142,7 @@ h1 {
 .bodycon1 {
     height: auto;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Images/Reservations.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/Reservations.jpg);
     background-position: center;
     background-size: cover;
     /* margin-top: 4rem; */
@@ -173,7 +173,7 @@ h1 {
 .bodycon2 {
     height: auto;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Images/Menu.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/Menu.jpg);
     background-position: center;
     background-size: cover;
     /* margin-top: 4rem; */
