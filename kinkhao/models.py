@@ -91,7 +91,6 @@ class Bookings1(models.Model):
     class Meta:
         constraints = [models.UniqueConstraint(
                             name = 'unique_table_location_timeSlot',
-                            fields=['the_table','time_slot']
+                            fields=['the_table', 'time_slot']
                         )
-
         ]
